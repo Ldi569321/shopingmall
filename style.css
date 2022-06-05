@@ -9,6 +9,8 @@ body {
     margin: 0;
 }
 
+
+/* header구간 */
 header {
     border-bottom: 2px solid gray;
 }
@@ -146,6 +148,34 @@ header .modal .modal-content div {
 
 }
 
+
+/* nav 구간 */ 
+
+nav {
+    display: flex;
+    position: relative;
+}
+
+nav .search{
+    width: 70vw;
+    border: 3px solid gray;
+    margin: 20px auto;
+    border-radius: 70px;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+
+nav i {
+    position: absolute;
+    font-size: 25px;
+    top: 33px;
+    right: 310px;
+    cursor: pointer;
+}
+
+
+/* section 구간 */
 section .slider-inner {
     left: 0;
     top: 0;
@@ -216,7 +246,7 @@ section .arrowbox {
 section .arrowR{
     font-size: 80px;
     position: absolute;
-    top: 175px;
+    top: 280px;
     right: 10px;
     cursor: pointer;
     color: white;
@@ -225,7 +255,7 @@ section .arrowR{
 section .arrowL{
     font-size: 80px;
     position: absolute;
-    top: 175px;
+    top: 280px;
     left: 10px;
     cursor: pointer;
     color: white;
