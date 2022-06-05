@@ -13,6 +13,25 @@ header {
     border-bottom: 2px solid gray;
 }
 
+header .header-logo {
+    position: absolute;
+    top: 2%;
+    left: 50%;
+    transform: translate(-50%, -2%);
+    display: flex;
+    cursor: pointer;
+}
+
+header .header-logo p {
+    display: flex;
+    align-items: center;
+}
+
+header .header-logo i {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
 header .inBtn {
     font-size: 30px;
     padding: 15px 10px;
@@ -21,6 +40,26 @@ header .inBtn {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+header .header-profile {
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+header .header-profile i {
+    font-size: 30px;
+}
+
+header .header-profile p {
+    margin-left: 10px;
+    color: black;
 }
 
 header .modal {
